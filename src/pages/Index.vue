@@ -17,5 +17,8 @@ export default {
 </script>
 
 <style scoped>
-
+ h5{
+   color: #145fdc;
+ }
 </style>
+ 
