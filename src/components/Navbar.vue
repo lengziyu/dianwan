@@ -4,10 +4,10 @@
       <h1><img src="../assets/logo.png" alt=""></h1>
       <div class="nav-right">
         <ul class="nav-list">
-         <li class="active">首页</li>
-         <li>新闻</li>
-         <li>游戏库</li>
-         <li>购物车</li>
+         <li class="active"><router-link to="/">首页</router-link></li>
+         <li><router-link to="news">新闻</router-link></li>
+         <li><router-link to="games">游戏库</router-link></li>
+         <li><router-link to="buycar">购物车</router-link></li>
         </ul>
         <div class="nav-line"></div>
         <div class="nav-search">
@@ -36,6 +36,7 @@ export default {
   height: 80px;
   width: 100%;
   overflow: hidden;
+  background-color: #fff;
 }
 .navbar h1{
   float: left;
@@ -43,7 +44,7 @@ export default {
 }
 .nav-right{
   float: right;
-  width: 650px;
+  width: 670px;
 }
 .nav-list{
   float: left;
@@ -54,6 +55,11 @@ export default {
   line-height: 78px;
   padding: 0 20px 0 20px;
   cursor: pointer;
+  font-size: 20px;
+}
+.nav-list li a{
+  color: #555;
+  text-decoration: none;
 }
 .nav-list .active{
   color: #145fdc;
