@@ -28,8 +28,13 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7
 }
 li{
   list-style: none;
+}
+.wrap{
+  max-width: 1200px;
+  margin: 0 auto;
 }
 </style>

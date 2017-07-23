@@ -1,17 +1,25 @@
 <template>
   <div class="index">
-    <h1>{{ msg }}</h1>
-    </ul>
+    <Banner></Banner>
+    <div class="wrap">
+      <Zixun></Zixun>
+      <Guize></Guize>
+    </div>
   </div>
 </template>
 
 <script>
+
+import Banner from './index/Banner'
+import Zixun from './index/Zixun'
+import Guize from './index/Guize'
+
 export default {
   name: 'index',
-  data () {
-    return {
-      msg: 'index'
-    }
+  components: {
+    Banner,
+    Zixun,
+    Guize
   }
 }
 </script>
@@ -20,5 +28,7 @@ export default {
  h5{
    color: #145fdc;
  }
+ .wrap{
+   overflow: hidden;
+ }
 </style>
- 
