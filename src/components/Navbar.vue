@@ -5,15 +5,15 @@
       <div class="nav-right">
         <ul class="nav-list">
          <li class="active"><router-link to="/">首页</router-link></li>
-         <li><router-link to="news">新闻</router-link></li>
-         <li><router-link to="games">游戏库</router-link></li>
-         <li><router-link to="buycar">购物车</router-link></li>
+         <li><router-link to="/news">新闻</router-link></li>
+         <li><router-link to="/games">游戏库</router-link></li>
+         <li><router-link to="/buycar">购物车</router-link></li>
         </ul>
         <div class="nav-line"></div>
         <div class="nav-search">
           <input class="nav-search-input" type="text" placeholder="搜索 刺客信条">
         </div>
-        <div class="nav-user"><a class="nav-icon-user" href=""></a></div>
+        <div class="nav-user"><router-link to="user"><a class="nav-icon-user" href=""></a></router-link></div>
       </div>
 
     </div>

@@ -60,6 +60,9 @@ export default {
   padding-left: 34px;
   background: url('../../assets/games/hot-icon-title.jpg') no-repeat center left;
 }
+.hotitem-title  a{
+  color: #777;
+}
 .hotitem-title .hotitem-sale{
   float: right;
 }

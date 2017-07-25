@@ -49,24 +49,40 @@
           </div>
           <div class="pinglun-say">
             <input type="text" name="" placeholder="输入你想说的，发表评论" value="">
-            <div class="pinglun-send">
+            <div class="pinglun-send"
+            @click="$modal.show('foo')">
               发送
             </div>
           </div>
         </div>
       </section>
     </div>
+    <Comments></Comments>
   </div>
 </template>
 
 <script>
 import SmallItem from './news/SmallItem'
+import vmodal from 'vue-js-modal'
+import Vue from 'vue'
+import Comments from '@/components/Comments'
+
+Vue.use(vmodal)
 
 export default {
   name: 'newsdetail',
   components: {
-    SmallItem
+    SmallItem,
+    Comments
+  },
+  methods: {
+    show () {
+      this.$modal.show('foo');
+  },
+    hide () {
+      this.$modal.hide('foo');
   }
+}
 }
 </script>
 
