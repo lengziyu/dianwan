@@ -3,12 +3,12 @@
     <div class="wrap">
       <h1><img src="../assets/logo.png" alt=""></h1>
       <div class="nav-right">
-        <ul class="nav-list">
-         <li class="active"><router-link to="/">首页</router-link></li>
-         <li><router-link to="/news">新闻</router-link></li>
-         <li><router-link to="/games">游戏库</router-link></li>
-         <li><router-link to="/buycar">购物车</router-link></li>
-        </ul>
+        <div class="nav-list">
+         <router-link to="/">首页</router-link>
+         <router-link to="/news">新闻</router-link>
+         <router-link to="/games">游戏库</router-link>
+         <router-link to="/buycar">购物车</router-link>
+       </div>
         <div class="nav-line"></div>
         <div class="nav-search">
           <input class="nav-search-input" type="text" placeholder="搜索 刺客信条">
@@ -36,6 +36,7 @@ export default {
   height: 80px;
   width: 100%;
   overflow: hidden;
+  border-bottom: 1px solid #ddd;
   background-color: #fff;
 }
 .navbar h1{
@@ -49,7 +50,7 @@ export default {
 .nav-list{
   float: left;
 }
-.nav-list li{
+.nav-list a{
   float: left;
   border-bottom: 2px solid #fff;
   line-height: 78px;
@@ -57,11 +58,12 @@ export default {
   cursor: pointer;
   font-size: 20px;
 }
-.nav-list li a{
+.nav-list a{
   color: #555;
+  display: inline-block;
   text-decoration: none;
 }
-.nav-list .active{
+.nav-list .router-link-exact-active{
   color: #145fdc;
   border-bottom: 2px solid #145fdc;
 }
