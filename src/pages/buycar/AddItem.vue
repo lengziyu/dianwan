@@ -35,7 +35,7 @@ export default {
   float: right;
   line-height: 150px;
   text-align: right;
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 20px;
   color: #999;
 }

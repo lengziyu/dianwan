@@ -120,7 +120,7 @@ h3{
   background-color: #fff;
 }
 .gd-main h1{
-  font-size: 32px;
+  font-size: 30px;
   color: #333333;
   margin-bottom: 25px;
 }
@@ -137,7 +137,7 @@ h3{
   float: right;
 }
 .newsdetail article p{
-  font-size: 22px;
+  font-size: 20px;
   padding: 20px 0;
   color: #555;
 }
@@ -173,7 +173,7 @@ h3{
   height: 47px;
   line-height: 47px;
   text-indent: 12px;
-  font-size: 18px;
+  font-size: 16px;
   color: #999;
 }
 .pinglun-send{

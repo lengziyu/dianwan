@@ -30,7 +30,7 @@ export default {
   outline: none;
   height: 450px;
   text-indent: 12px;
-  font-size: 18px;
+  font-size: 16px;
   color: #999;
   background-color: #f7f7f7;
 }

@@ -69,12 +69,12 @@ export default {
 }
 .user-text{
   float: left;
-  font-size: 18px;
+  font-size: 16px;
   color: #888;
 }
 .user-text span{
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 .user-btns{
   float: right;
@@ -124,12 +124,12 @@ export default {
 }
 .wallet-item .money{
   width: 120px;
-  font-size: 20px;
+  font-size: 18px;
   color: #e32132;
 }
 .wallet-item .state{
   width: 260px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .wallet-item .state a{
   color: #999;
@@ -139,7 +139,7 @@ export default {
   padding-top: 0;
 }
 .wallet-item .date-last{
-  font-size: 16px;
+  font-size: 14px;
   width: 180px;
 }
 .wallet-item .date-last a{

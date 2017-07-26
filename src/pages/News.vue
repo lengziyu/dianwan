@@ -61,7 +61,7 @@ export default {
    height: 78px;
    float: left;
    width: 171px;
-   font-size: 20px;
+   font-size: 18px;
    font-weight: 600;
    text-align: center;
    border-bottom: 2px solid #fff;

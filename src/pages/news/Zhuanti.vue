@@ -51,7 +51,7 @@ export default {
   float: right;
   display: inline-block;
   color: #fff;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
 }
 .zt-title{
@@ -59,13 +59,13 @@ export default {
   padding-bottom: 0;
   color: #fff;
   margin-top: 140px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
 }
 .zt-date{
   padding: 20px;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
 }
 .zhuanti .zt-right{
   float: right;

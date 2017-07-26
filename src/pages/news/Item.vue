@@ -51,7 +51,7 @@ export default {
 
 }
 .newsitem .item-title{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #222;
   height: 32px;
@@ -60,7 +60,7 @@ export default {
   padding: 12px;
 }
 .newsitem .item-subtitle{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: #777;
   padding: 12px;
@@ -73,11 +73,11 @@ export default {
 .newsitem .item-date{
   float: left;
   color: #777;
-  font-size: 20px;
+  font-size: 18px;
 }
 .newsitem .item-comment{
   float: right;
   color: #777;
-  font-size: 20px;
+  font-size: 18px;
 }
 </style>

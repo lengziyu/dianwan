@@ -2,7 +2,9 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <router-view></router-view>
+    <div class="content">
+      <router-view></router-view>
+    </div>
     <Footbar></Footbar>
   </div>
 </template>
@@ -19,16 +21,21 @@ export default {
 }
 </script>
 
-<style>
+<style  lang="scss">
 *{
   margin: 0;
   padding: 0;
 }
+.content{
+  margin-top: 80px;
+  overflow: hidden;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'noto sans s chinese';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f7f7f7;
+  color: #333;
 }
 li{
   list-style: none;

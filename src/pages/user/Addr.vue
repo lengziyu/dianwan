@@ -58,7 +58,7 @@ export default {
   margin-bottom: 15px;
 }
 .useraddr li .useraddr-name{
-  font-size: 18px;
+  font-size: 16px;
   line-height: 50px;
 }
 .useraddr li .useraddr-addr{

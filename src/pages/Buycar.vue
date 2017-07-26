@@ -96,7 +96,7 @@ h3{
   width: 100%;
   height: 78px;
   line-height: 80px;
-  font-size: 20px;
+  font-size: 18px;
   border: 1px solid #ddd;
   background-color: #e5e5e5;
 }

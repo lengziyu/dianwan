@@ -39,12 +39,12 @@ export default {
 }
 .user-text{
   float: left;
-  font-size: 18px;
+  font-size: 16px;
   color: #888;
 }
 .user-text span{
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 .uer-btns{
   float: right;

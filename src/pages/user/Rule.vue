@@ -118,7 +118,7 @@ export default {
   padding: 40px 32px;
 }
 .userrule h2{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
   text-align: center;
   margin-bottom: 20px;

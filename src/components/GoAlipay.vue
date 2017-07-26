@@ -52,7 +52,7 @@ export default {
 .modal-title{
   text-align: center;
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 22px;
   color: #333;
 }
 .modal-btn{

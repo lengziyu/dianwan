@@ -57,18 +57,18 @@ export default {
   overflow: hidden;
 }
 .ci-title{
-  font-size: 24px;
+  font-size: 22px;
   float: left;
 }
 .ci-title span{
-  font-size: 16px;
+  font-size: 14px;
   color: #999;
 }
 .ci-nums{
   float: right;
 }
 .caritem-subtitle{
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
 }
 .caritem-info{
@@ -77,12 +77,12 @@ export default {
 }
 .caritem-pirce{
   float: left;
-  font-size: 18px;
+  font-size: 16px;
   color: #ff6c00;
 }
 .caritem-pirce span{
   color: #999;
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 10px;
   text-decoration: line-through;
 }

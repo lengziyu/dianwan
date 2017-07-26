@@ -67,7 +67,7 @@ export default {
   padding: 20px;
 }
 .live-main .live-title{
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 4px;
 }
 .live-main > div{
@@ -90,7 +90,7 @@ export default {
   padding-left: 50px;
   height: 45px;
   background-repeat: no-repeat;
-  font-size: 18px;
+  font-size: 16px;
   background-position: 20px 7px;
   margin-top: 20px;
 }
@@ -114,7 +114,7 @@ export default {
   border: 1px solid #999;
   height: 55px;
   color: #777;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 55px;
   background:#fff url('../../assets/gamesdetail/pinglun.png') no-repeat 90px 12px;
 }

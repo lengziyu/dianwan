@@ -35,6 +35,10 @@ export default {
 .navbar{
   height: 80px;
   width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
   overflow: hidden;
   border-bottom: 1px solid #ddd;
   background-color: #fff;
@@ -56,7 +60,7 @@ export default {
   line-height: 78px;
   padding: 0 20px 0 20px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
 }
 .nav-list a{
   color: #555;

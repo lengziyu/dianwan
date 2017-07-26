@@ -41,12 +41,12 @@ export default {
 }
 .user-text{
   float: left;
-  font-size: 18px;
+  font-size: 16px;
   color: #888;
 }
 .user-text span{
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
 }
 .user-lastdate{
   float: right;
@@ -60,7 +60,7 @@ export default {
 .uservip-select{
   text-align: center;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 18px;
   color: #777;
   font-weight: 600;
 }
@@ -91,11 +91,11 @@ export default {
 }
 .uservip-table li.ub-allprice .ub-type,.uservip-table li.ub-allprice .ub-price{
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 .uservip-table li.ub-allprice .ub-price small{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
   padding: 0 10px;
 }

@@ -41,17 +41,17 @@ export default {
   width: 598px;
 }
 .zixun-title{
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 18px;
 }
 .zixun-subtitle{
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   color: #999;
   margin-bottom: 22px;
 }
 .zixun-date{
-  font-size: 16px;
+  font-size: 14px;
   color: #999;
 }
 </style>

@@ -38,7 +38,7 @@ export default {
   margin-left: 12px;
 }
 .smallitem-title{
-  font-size: 18px;
+  font-size: 16px;
 }
 .smallitem-date{
   text-align: right;

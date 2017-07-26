@@ -55,7 +55,7 @@ export default {
   overflow: hidden;
 }
 .hotitem-title .hotitem-text{
-  font-size: 24px;
+  font-size: 22px;
   float: left;
   padding-left: 34px;
   background: url('../../assets/games/hot-icon-title.jpg') no-repeat center left;

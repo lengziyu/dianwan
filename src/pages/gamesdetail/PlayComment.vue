@@ -63,7 +63,7 @@ export default {
   overflow: hidden;
 }
 .pc-name{
-  font-size: 20px;
+  font-size: 18px;
   float: left;
 }
 .pc-date{

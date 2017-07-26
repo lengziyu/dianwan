@@ -2,6 +2,9 @@
   <div class="Banner">
     <flickity class="bannerwrap" ref="flickity" :options="flickityOptions">
       <div class="carousel-cell"><img src="../../assets/index/banner01.jpg" alt=""></div>
+      <div class="carousel-cell"><img src="../../assets/index/banner01.jpg" alt=""></div>
+      <div class="carousel-cell"><img src="../../assets/index/banner01.jpg" alt=""></div>
+      <div class="carousel-cell"><img src="../../assets/index/banner01.jpg" alt=""></div>
   </flickity>
   <div class="bn-nav">
     <ul>
@@ -26,10 +29,9 @@ export default {
   data () {
     return {
       flickityOptions: {
-          initialIndex: 3,
+          initialIndex: 1,
           prevNextButtons: false,
-          pageDots: true,
-          wrapAround: true
+          pageDots: true
 
           // any options from Flickity can be used
       }
@@ -43,12 +45,12 @@ export default {
 <style scoped>
 .Banner{
   width: 100%;
-  height: 1000px;
+  height: 850px;
   overflow: hidden;
 }
 .bannerwrap{
   margin: 0 auto;
-  height: 1000px;
+  height: 850px;
   text-align: center;
 }
 .flickity-slider{
@@ -81,7 +83,7 @@ export default {
   display: inline-block;
   width: 100%;
   height: 100%;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -98,5 +100,23 @@ export default {
 .bn-nav li:nth-child(4){
   background-image: url('../../assets/index/bn-zupin.png');
 }
+.bannerwrap{
+  position: relative;
+}
+.flickity-page-dots{
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  height: 100px;
+  background-color: #000;
+  bottom: 100px;
+  z-index: 9;
+}
+.flickity-page-dots .dot{
 
+}
+.flickity-page-dots .dot.is-selected{
+
+}
 </style>

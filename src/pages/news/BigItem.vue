@@ -53,7 +53,7 @@ export default {
   padding: 18px;
 }
 .bigitem-title{
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   color: #fff;
 }
@@ -62,6 +62,6 @@ export default {
   right: 24px;
   bottom: 20px;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
 }
 </style>

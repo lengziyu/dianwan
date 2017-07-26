@@ -37,12 +37,12 @@ export default {
   padding-left: 20px;
 }
 .item-info .item-title{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 .item-info .item-content,.item-info .item-date{
-  font-size: 16px;
+  font-size: 14px;
   color: #777;
 }
 .item-info .item-date{

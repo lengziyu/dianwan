@@ -115,11 +115,11 @@ h3{
   text-align: center;
   width: 300px;
   color: #222;
-  font-size: 18px;
+  font-size: 16px;
 }
 .gameshot-ranking li span{
   float: right;
   color: #ddd;
-  font-size: 22px;
+  font-size: 20px;
 }
 </style>
