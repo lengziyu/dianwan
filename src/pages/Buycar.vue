@@ -42,6 +42,7 @@
         </div>
       </section>
     </div>
+    <div class="notfoot"></div>
   </div>
 </template>
 
@@ -50,15 +51,16 @@ import HotItem from './games/HotItem'
 import CarItem from './buycar/CarItem'
 import AddItem from './buycar/AddItem'
 
+
 export default {
   name: 'buycar',
   components: {
     HotItem,
     CarItem,
     AddItem
-
   }
 }
+
 </script>
 
 
@@ -93,12 +95,17 @@ h3{
   border-bottom: 2px solid #145fdc
 }
 .buycar-all{
-  width: 100%;
+  width: 1200px;
   height: 78px;
   line-height: 80px;
   font-size: 18px;
   border: 1px solid #ddd;
   background-color: #e5e5e5;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  z-index: 3;
+  margin-left: -600px;
 }
 .buycar-all .all-left{
   float: left;
@@ -127,4 +134,18 @@ h3{
   text-align: center;
   background-color: #145fdc;
 }
+.buycar{
+  position: relative;
+}
+.buycar::before{
+  content: "";
+  background-color: #f7f7f7;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  bottom: -300px;
+  left: 0;
+  z-index: 2;
+}
+
 </style>

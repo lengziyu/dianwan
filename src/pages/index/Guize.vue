@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 .guize{
-  width: 290px;
+  width: 285px;
   margin-top: 30px;
   overflow: hidden;
   float: right;
@@ -47,7 +47,7 @@ export default {
   background-color: #fff;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .gz-main li{
@@ -55,7 +55,7 @@ export default {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .yuliu{
   width: 100%;

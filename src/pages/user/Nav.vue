@@ -23,16 +23,19 @@ export default {
 
 <style scoped>
 .usernav{
-  width: 200px;
+  width: 190px;
   background: #fff;
   padding-left: 15px;
   padding-right: 15px;
   height: 529px;
   float: left;
+  position: fixed;
+  left: 50%;
+  margin-left: -605px;
   overflow: hidden;
 }
 .usernav a{
-  width: 200px;
+  width: 190px;
   height: 40px;
   padding: 6px 0;
   line-height: 40px;

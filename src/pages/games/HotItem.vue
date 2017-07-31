@@ -36,8 +36,11 @@ export default {
 
 
 <style scoped>
-.gameshot1 .hotitem,.gameshot2 .hotitem{
+.gameshot1 .hotitem{
   margin-left: 17px;
+}
+.gameshot2 .hotitem{
+  margin-left: 18px;
 }
 .hotitem{
   float: left;
@@ -47,7 +50,7 @@ export default {
 .gameshot1 .hotitem:nth-child(2),.gameshot1 .hotitem:nth-child(5),.gameshot1 .hotitem:nth-child(8){
   margin-left: 0;
 }
-.gameshot2 .hotitem:nth-child(1),.gameshot2 .hotitem:nth-child(5),.gameshot2 .hotitem:nth-child(9){
+.gameshot2 .hotitem:nth-child(2),.gameshot2 .hotitem:nth-child(6),.gameshot2 .hotitem:nth-child(10){
   margin-left: 0;
 }
 .hotitem-title{

@@ -60,10 +60,10 @@ export default {
   padding: 12px;
 }
 .newsitem .item-subtitle{
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
   color: #777;
   padding: 12px;
+  margin-bottom: 4px;
 }
 .newsitem .item-info{
   overflow: hidden;
@@ -73,11 +73,11 @@ export default {
 .newsitem .item-date{
   float: left;
   color: #777;
-  font-size: 18px;
+  font-size: 14px;
 }
 .newsitem .item-comment{
   float: right;
   color: #777;
-  font-size: 18px;
+  font-size: 14px;
 }
 </style>

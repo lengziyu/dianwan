@@ -4,12 +4,12 @@
       <div class="news-nav">
         <ul>
           <li class="active">热门</li>
-          <li>PS4</li>
+          <li class="active-dian">PS4</li>
           <li>XBOX</li>
           <li>VPS</li>
           <li>SWITCH</li>
           <li>WII</li>
-          <li>其他</li>
+          <li class="active-dian">其他</li>
         </ul>
       </div>
       <div class="news-content">
@@ -68,9 +68,23 @@ export default {
    line-height: 78px;
  }
   .news-nav li.active{
-    border-bottom: 2px solid #145fdc;
+    border-bottom: 4px solid #145fdc;
+    color: #145fdc;
   }
   .news-content,.news-content2{
     overflow: hidden;
+  }
+  .active-dian{
+    position: relative;
+  }
+  .active-dian::before{
+    position: absolute;
+    content: "";
+    right: 50px;
+    top: 30px;
+    width: 8px;
+    background-color: #145fdc;
+    height: 8px;
+    border-radius: 50%;
   }
 </style>

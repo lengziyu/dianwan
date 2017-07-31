@@ -2,9 +2,11 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
+
     <div class="content">
       <router-view></router-view>
     </div>
+    
     <Footbar></Footbar>
   </div>
 </template>
@@ -43,5 +45,26 @@ li{
 .wrap{
   max-width: 1200px;
   margin: 0 auto;
+}
+.bannerwrap{
+  position: relative;
+}
+.flickity-page-dots{
+  position: absolute;
+  bottom: 220px;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  z-index: 999;
+}
+.flickity-page-dots .dot{
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-left: 20px;
+  background: url('./assets/index/bn-btn.png') no-repeat;
+}
+.flickity-page-dots .dot.is-selected{
+  background: url('./assets/index/bn-btn-active.png') no-repeat;
 }
 </style>

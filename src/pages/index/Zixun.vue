@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .zixun{
-  width: 900px;
+  width: 895px;
   margin-top: 30px;
   float: left;
   overflow: hidden;
@@ -36,13 +36,14 @@ export default {
   background-color: #fff;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .zx-head-title{
   float: left;
 }
 .zx-head-more{
   float: right;
+  color: #666666;
 }
 .zx-foot-more{
   text-align: center;

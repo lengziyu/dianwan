@@ -53,9 +53,7 @@ export default {
   overflow: hidden;
   background: #fff;
 }
-.caritem:hover{
-  background: #fef6d8
-}
+
 .caritem-pic{
   width: 120px;
   float: left;

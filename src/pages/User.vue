@@ -30,17 +30,20 @@ export default {
 .user{
   overflow: hidden;
   margin-top: 30px;
+  position: relative;
   padding-bottom: 40px;
 }
 .user-main{
   float: left;
-  width: 880px;
+  width: 870px;
   min-height: 700px;
-  margin-left: 25px;
+  margin-left: 235px;
 }
 .user-wrap{
   background-color: #fff;
   padding: 30px;
   min-height: 700px;
 }
+
+
 </style>

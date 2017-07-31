@@ -22,7 +22,7 @@ export default {
 <style scoped>
 .zixunItem{
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-color: #fff;
   overflow: hidden;
 }
@@ -33,7 +33,7 @@ export default {
 }
 .item-info{
   float: left;
-  width: 680px;
+  width: 675px;
   padding-left: 20px;
 }
 .item-info .item-title{

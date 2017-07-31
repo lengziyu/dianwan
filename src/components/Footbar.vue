@@ -38,6 +38,8 @@ export default {
 
 <style scoped>
 .footbar{
+  position: relative;
+  z-index: 1;
   width: 100%;
   background-color: #373737;
   color: #9e9e9e;

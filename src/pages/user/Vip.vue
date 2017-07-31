@@ -99,4 +99,12 @@ export default {
   font-weight: 100;
   padding: 0 10px;
 }
+.ub-allprice{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 926px;
+  z-index: 3;
+  margin-left: -360px;
+}
 </style>
